@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Simmon Say's</h1>
+    
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons.
+    </p>
+    
+    <h2 id = "lifeValue">
+      Life: 3
+    </h2>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+     <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="btn1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
+      <button id="btn2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
+      <button id="btn3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
+      <button id="btn4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"></button>
+      <button id="btn5" onmousedown="startTone(5)" onmouseup="stopTone()" onclick="guess(5)"></button>
+      <button id="btn6" onmousedown="startTone(6)" onmouseup="stopTone()" onclick="guess(6)"></button>
+      <button id="btn7" onmousedown="startTone(7)" onmouseup="stopTone()" onclick="guess(7)"></button>
+      <button id="btn8" onmousedown="startTone(8)" onmouseup="stopTone()" onclick="guess(8)"></button>
+    </div>
+  </body>
+</html>
