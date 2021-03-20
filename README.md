@@ -1,7 +1,7 @@
 # Pre-work - *Memory Game*
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
-
+![simonsays](https://user-images.githubusercontent.com/43105808/111888741-943f1e00-899c-11eb-9bd2-b3e25301ee0a.gif)
 Submitted by: **Kushal Bhandari**
 
 Time spent: **4** hours spent in total
